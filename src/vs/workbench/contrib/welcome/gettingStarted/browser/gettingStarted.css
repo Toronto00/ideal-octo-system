@@ -1,0 +1,93 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.file-icons-enabled .show-file-icons .vs_code_editor_getting_started\.md-name-file-icon.md-ext-file-icon.ext-file-icon.markdown-lang-file-icon.file-icon::before {
+	content: ' ';
+	background-image: url('../../../../browser/media/code-icon.svg');
+}
+
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer .gettingStartedSlide {
+	width: 100%;
+	position: absolute;
+	transition: left 1s;
+	left: 0;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer {
+	text-align: center;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer .scroll-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY((-50%));
+	z-index: 1;
+	font-size: 24px;
+	opacity: 0.5;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer .scroll-button:hover {
+	opacity: 1;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer #prev-button {
+	left: 0;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer #next-button {
+	right: 0;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer .gettingStartedSlide .monaco-editor {
+	text-align: initial;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer .gettingStartedSlide .product-icon {
+	background-image: url('../../../../browser/media/code-icon.svg');
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer .gettingStartedSlide .next-step {
+	width: 170px;
+	height: 45px;
+	font-size: 12pt;
+	display: block;
+	margin: 10px auto;
+}
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer .gettingStartedSlide .skip {
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer .gettingStartedSlide h1 {
+	font-size: 32pt;
+	font-weight: normal;
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer .gettingStartedSlide .subtitle {
+	font-size: 18pt;
+	margin-top: 0;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer .footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer .gettingStartedSlide.next {
+	left: 100%;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .gettingStartedContainer .gettingStartedSlide.prev {
+	left: -100%;
+}
